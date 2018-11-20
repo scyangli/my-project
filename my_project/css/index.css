@@ -1,0 +1,74 @@
+*{margin:0;padding:0;}
+div.banner{
+    width:900px;
+    height:360px;
+    margin:0 auto;
+    padding:0 60px;
+    position:relative;
+    overflow:hidden;
+}
+#nav ul{
+    /*width:900px;*/
+    height:360px;
+}
+#nav ul li{
+    list-style:none;
+    float:left;
+}
+#nav ul li img{
+    width:900px;
+    height:360px;
+}
+#nav ul li:not(:first-child){
+    margin-left:60px;
+}
+.banner .banner_arrow{
+    position:absolute;
+    top:0px;
+    width:60px;
+    height:360px;
+    background:rgb(200,200,200);
+    opacity:0.3;
+}
+.banner .left{
+    left:0px;
+}
+.banner .right{
+    right:0px;
+}
+.banner .banner_arrow a{
+    position:absolute;
+}
+.banner .banner_arrow a{
+    top:50%;
+    margin-top:-20px;
+    text-decoration:none;
+}
+.banner .left a{
+    left:50%;
+    margin-left:-20px;
+}
+.banner .right a{
+    right:50%;
+    margin-right:-20px;
+}
+.banner .banner_arrow a i{
+    font-size:40px;
+}
+.banner .banner_bo ul{
+    list-style:none;
+    position:absolute;
+    bottom:10px;
+    left:450px;
+}
+.banner .banner_bo ul li{
+    float:left;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    margin-left:5px;
+}
+.l1{ background:#999;}
+.active{
+    background:#fff;
+}
