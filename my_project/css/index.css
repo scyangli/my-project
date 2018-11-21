@@ -1,7 +1,10 @@
 *{margin:0;padding:0;}
+.body div:first-child{
+    background:linear-gradient(to top,#33bbff,#177ee6);
+}
 div.banner{
-    width:900px;
-    height:360px;
+    width:1080px;
+    height:432px;
     margin:0 auto;
     padding:0 60px;
     position:relative;
@@ -9,15 +12,15 @@ div.banner{
 }
 #nav ul{
     /*width:900px;*/
-    height:360px;
+    /*height:360px;*/
 }
 #nav ul li{
     list-style:none;
     float:left;
 }
 #nav ul li img{
-    width:900px;
-    height:360px;
+    width:1080px;
+    /*height:360px;*/
 }
 #nav ul li:not(:first-child){
     margin-left:60px;
@@ -26,7 +29,7 @@ div.banner{
     position:absolute;
     top:0px;
     width:60px;
-    height:360px;
+    height:432px;
     background:rgb(200,200,200);
     opacity:0.3;
 }
@@ -59,7 +62,7 @@ div.banner{
     list-style:none;
     position:absolute;
     bottom:10px;
-    left:450px;
+    left:45%;
 }
 .banner .banner_bo ul li{
     float:left;
@@ -67,6 +70,7 @@ div.banner{
     height:10px;
     border-radius:50%;
     margin-left:5px;
+    cursor:pointer;
 }
 .l1{ background:#999;}
 .active{
